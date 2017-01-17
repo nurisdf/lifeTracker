@@ -1,9 +1,26 @@
 body {
-  min-height: 2000px;
   padding-top: 70px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.tracker-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tracker-heading {
+  padding-bottom: 2em;
+}
+
+.form-row {
+  padding: 10px 16px;
+}
+
+.btn.active {
+  font-weight: bold;
+}
+
+.goal {
+  font-size: 3ex;
+  vertical-align: bottom;
 }
