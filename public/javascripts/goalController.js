@@ -9,7 +9,7 @@ angular.module('goalController', [])
       description: $scope.goalName
     };
     Goals.create(goalObject).success(function(data) {
-      $scope.goals.push(goalObject);
+      $scope.goals.push(data);
       $scope.goalName = '';
     });
   };
