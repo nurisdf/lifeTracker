@@ -40,6 +40,10 @@
           <h2>Tracker</h2>
         </div>
       </div>
+      <div align="center">
+        <input type="date" ng-model="day" class="form-control" placeholder="Data" style="width:200px;" ng-change="loadDay(day.goals)"/>
+      </div>
+    </br>
       <div ng-repeat="goal in goals" class="form-group row form-row">
         <div class="col-xs-1">
           {{goal.result}}
